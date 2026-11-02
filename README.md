@@ -4,11 +4,26 @@ A routing simulation combining shortest paths with longest-prefix IP lookup.
 
 **Python · Tries · Dijkstra · NetworkX · Graphviz**
 
+[![Documentation checks](https://github.com/kedharkota/Advanced-Data-Structures-and-Algorithms/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/Advanced-Data-Structures-and-Algorithms/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Network Routing with Tries & Dijkstra: project preview](docs/assets/notebook-1.png)
+<p align="center">
+  <img src="docs/assets/notebook-1.png" alt="Network Routing with Tries &amp; Dijkstra: project preview" width="640" />
+</p>
+
+[Open full-size visual](docs/assets/notebook-1.png)
 
 *Original five-router topology saved in Project.ipynb.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | IP routing with graph algorithms and prefix data structures |
+| **Start here** | [Project.ipynb](Project.ipynb) |
+| **Run mode** | Local Jupyter notebook; Graphviz executable for trie diagrams |
+| **Explore** | Routing tables, packet-forwarding paths, and topology/trie images |
 
 ## Overview
 
@@ -23,7 +38,11 @@ A notebook implementation of a small IP routing simulation. Dijkstra's algorithm
 
 ## Workflow
 
-![Project workflow](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Project workflow" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory diagram. Detailed implementation and availability notes follow below.*
 
@@ -54,7 +73,7 @@ The topology is defined in code and needs no external dataset. The sample `192.1
 
 ## Results and project status
 
-The topology figure below is an original saved notebook output. The simulation illustrates data structures and routing decisions; it is not a measured throughput or real-network deployment benchmark. Running the notebook also generates per-router trie PNGs.
+The topology preview above is an original saved notebook output. The simulation illustrates data structures and routing decisions; it is not a measured throughput or real-network deployment benchmark. Running the notebook also generates per-router trie PNGs.
 
 ## Next steps
 
@@ -63,6 +82,9 @@ The topology figure below is an original saved notebook output. The simulation i
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -70,6 +92,13 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Robotic Vacuum Navigation Study](https://github.com/kedharkota/Implementation-and-Analysis-of-Advanced-Navigation-Algorithms-for-Robotic-Vacuum-Cleaners-)
+- [Gesture-Controlled Drone Simulation](https://github.com/kedharkota/Gesture-Controlled-Drone-)
 
 ---
 
