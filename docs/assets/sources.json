@@ -1,0 +1,10 @@
+[
+  {
+    "path": "docs/assets/overview.svg",
+    "source": "New explanatory project-workflow diagram based on the committed source and documentation; not a screenshot or measured result."
+  },
+  {
+    "path": "docs/assets/notebook-1.png",
+    "source": "Project.ipynb, cell 1 (1-based), committed image/png output; not rerun"
+  }
+]
